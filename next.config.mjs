@@ -10,7 +10,7 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  distDir: '/streamline-landing',
+  distDir: '/docs/streamline-landing',
   // basePath: 'https://nhttoan0809.github.io/streamline-landing/',
   // basePath: '/streamline-landing/',
 }
