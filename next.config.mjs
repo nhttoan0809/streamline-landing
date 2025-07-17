@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  distDir: '/streamline-landing',
+  // basePath: 'https://nhttoan0809.github.io/streamline-landing/',
+  // basePath: '/streamline-landing/',
 }
 
 export default nextConfig
