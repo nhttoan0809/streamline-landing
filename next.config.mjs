@@ -11,8 +11,9 @@ const nextConfig = {
   },
   output: 'export',
   distDir: '/docs',
+  assetPrefix: 'https://nhttoan0809.github.io/streamline-landing/',
   // basePath: 'https://nhttoan0809.github.io/streamline-landing/',
-  basePath: '/streamline-landing',
+  // basePath: 'https://nhttoan0809.github.io/streamline-landing',
 }
 
 export default nextConfig
