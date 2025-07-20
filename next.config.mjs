@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -9,11 +11,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export',
-  distDir: '/docs',
-  assetPrefix: 'https://nhttoan0809.github.io/streamline-landing/',
-  // basePath: 'https://nhttoan0809.github.io/streamline-landing/',
-  // basePath: 'https://nhttoan0809.github.io/streamline-landing',
+  // distDir: '/build',
+  assetPrefix: isProd ? '/streamline-landing/' : '',
+  basePath: isProd ? '/streamline-landing' : '',
+  output: 'export'
 }
 
 export default nextConfig

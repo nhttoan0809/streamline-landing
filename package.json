@@ -2,12 +2,14 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
+  "home": "https://nhttoan0809.github.io/streamline-landing",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build && touch out/.nojekyll",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

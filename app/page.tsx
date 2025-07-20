@@ -67,7 +67,7 @@ export default function StreamLineLanding() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src={`${process.env.HOST_ENV}/placeholder.svg?height=600&width=800`}
                   alt="StreamLine Dashboard"
                   width={800}
                   height={600}
@@ -189,7 +189,7 @@ export default function StreamLineLanding() {
                 <CardContent>
                   <div className="flex items-center space-x-3">
                     <Image
-                      src="/placeholder.svg?height=40&width=40"
+                      src={`${process.env.HOST_ENV}/placeholder.svg?height=40&width=40`}
                       alt="Sarah Johnson"
                       width={40}
                       height={40}
@@ -218,7 +218,7 @@ export default function StreamLineLanding() {
                 <CardContent>
                   <div className="flex items-center space-x-3">
                     <Image
-                      src="/placeholder.svg?height=40&width=40"
+                      src={`${process.env.HOST_ENV}/placeholder.svg?height=40&width=40`}
                       alt="Michael Chen"
                       width={40}
                       height={40}
@@ -247,7 +247,7 @@ export default function StreamLineLanding() {
                 <CardContent>
                   <div className="flex items-center space-x-3">
                     <Image
-                      src="/placeholder.svg?height=40&width=40"
+                      src={`${process.env.HOST_ENV}/placeholder.svg?height=40&width=40`}
                       alt="Emily Rodriguez"
                       width={40}
                       height={40}
